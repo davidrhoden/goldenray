@@ -29,8 +29,8 @@ The drums.
 
 ## David<br>Rhoden 
 ![David Rhoden](/static/img/david-rhoden-01-tint.jpg "David Rhoden")
-Vocals, guitar, and bass.
+Also vocals, guitar, and bass.
 </div>
 </div>
 
-With their combined talents, Golden Ray deliver the New Orleans Rock Experience&trade;.
+With their combined talents and experience, Golden Ray deliver the ultimate New Orleans Rock Experience&trade;.
