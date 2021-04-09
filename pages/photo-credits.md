@@ -1,6 +1,6 @@
 ---
 layout: layouts/page.njk
-title: Photo Credits
+title: Golden Ray Photo Credits
 date: 2021-04-08T00:00:00.000Z
 permalink: /photo-credits/index.html
 

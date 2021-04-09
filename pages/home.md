@@ -33,4 +33,6 @@ Also vocals, guitar, and bass.
 </div>
 </div>
 
-With their combined talents and experience, Golden Ray deliver the ultimate New Orleans Rock Experience&trade;.
+With their combined talents and experience, Golden Ray can assure timely delivery of the ultimate New Orleans Rock Experience&trade;.
+
+<a href="contact">Get in touch to customize your Experience today.</a>

@@ -1,6 +1,6 @@
 ---
 layout: layouts/shows.njk
-title: Shows
+title: Golden Ray Shows
 navtitle: Shows
 date: 2021-04-08
 permalink: /shows/index.html
