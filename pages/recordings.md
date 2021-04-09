@@ -10,5 +10,5 @@ eleventyNavigation:
 ---
 
 <div style="text-align: center">
-<iframe style="border: 0; width: 100%; max-width: 400px; height: 500px; margin; 0 auto;" src="https://bandcamp.com/EmbeddedPlayer/album=3608810968/size=large/bgcol=ffffff/linkcol=e99708/tracklist=false/transparent=true/" seamless><a href="https://goldenray.bandcamp.com/album/only-the-beginning">Only The Beginning by Golden Ray</a></iframe>
+<iframe style="border: 0; width: 100%; max-width: 400px; height: 500px; margin; 0 auto;" src="https://bandcamp.com/EmbeddedPlayer/album=3608810968/size=large/bgcol=ffffff/linkcol=e99708/transparent=true/" seamless><a href="https://goldenray.bandcamp.com/album/only-the-beginning">Only The Beginning by Golden Ray</a></iframe>
 </div>
