@@ -7,7 +7,7 @@ eleventyNavigation:
   key: Home
   order: 0
 ---
-# This is Golden Ray: a slideshow
+# This is Golden Ray
 
 <div class="slide">
 
