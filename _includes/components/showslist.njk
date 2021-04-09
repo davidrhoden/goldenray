@@ -1,6 +1,11 @@
 <section>
 	{% for show in showslist | reverse %}
 		<article{% if show.url == url %} data-current="current item"{% endif %}>
+			{% if show.data.image %}
+				<a href="{{ show.url | url }}">
+					<img src="{{ show.data.image }}" alt="{{ show.data.title }}">
+				</a>
+			{% endif %}
 			<h3>
 				<a href="{{ show.url | url }}">
 					{% if show.data.title %}
@@ -13,21 +18,6 @@
 			{% if show.data.summary %}
 				<p>
 					{{ show.data.summary }}
-				</p>
-			{% endif %}
-			<p>
-				<time datetime="{{ show.date | machineDate }}">
-					<small>{{ show.date | readableDate }}</small>
-				</time>
-			</p>
-			{% if show.data.tags %}
-				<p>
-					{% for tag in show.data.tags %}
-		  			{%- if tag != "show" -%}
-		  				{% set tagUrl %}/tags/{{ tag }}/{% endset %}
-		  			<a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
-		  			{%- endif -%}
-					{% endfor %}
 				</p>
 			{% endif %}
 		</article>
