@@ -32,3 +32,5 @@ The drums.
 Vocals, guitar, and bass.
 </div>
 </div>
+
+With their combined talents, Golden Ray deliver the New Orleans Rock Experience&trade;.
