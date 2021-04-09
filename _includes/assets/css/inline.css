@@ -1,7 +1,7 @@
 :root {
-	--primary: blue;
+	--primary: orangered;
 	--secondary: white;
-	--background: #FFF0EB;
+	--background: #dcbe2b;
 }
 
 *, *:before, *:after {
@@ -12,7 +12,7 @@ html,
 body {
 	padding: 0;
 	margin: 0;
-	font-family: "Avenir", "Avenir Next", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+	font-family: Helvetica, Arial, sans-serif;
 }
 
 body {
@@ -20,15 +20,43 @@ body {
 	height: 100vh;
 	grid-template-rows: auto 1fr auto;
 	background-color: var(--background);
+	background-image: url(/static/img/mv-golden-ray-bw.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-blend-mode: multiply;
 }
 
-main {
-	max-width: 37.5em;
+.bg {
+	animation: fadeBg 30s infinite alternate; 
+	background-color: var(--background);
+	background-blend-mode: multiply;
+	background-image: url(/static/img/3236px-Coast_Guard_rescue_Golden_Ray_169.jpg);
+	background-size: cover;
+	height: 100vh;
+	position: absolute;
+	top: 0;
+	width: 100vw;
 }
 
-p,
-pre,
-code {
+@keyframes fadeBg {	
+	0%, 45% {
+   		opacity: 0;
+	}
+	55%, 100% {
+   		opacity: 1;
+	}
+}
+
+small {
+	font-size: .7rem;
+}
+
+main img {
+	width: 100%;
+}
+
+p {
 	line-height: 1.5;
 }
 
@@ -46,45 +74,63 @@ img {
 	height: auto;
 }
 
-header,
-main,
-footer {
+header {
 	padding: 1em;
+	font-family: 'Ballet', cursive;
+	text-align: center;
+	z-index: 2;
+}
+
+footer {
+	color: rgba(255,255,255,.7);
+	padding: 1em;
+	font-family: 'Abril Fatface', sans-serif;
+	line-height: 1;
+	text-align: center;
+	z-index: 2;
+}
+
+footer a[href],
+footer a[href]:visited {
+	color: var(==secondary);
+	opacity: .75;
+}
+
+h1 {
+	background: white;
+	font-family: 'Abril Fatface', sans-serif;
+	font-size: 1.75em;
+	line-height: 1;
+	margin: -.5em -.5em .5em;
+	padding: .5em;
+}
+
+h2 {
+	font-family: 'Abril Fatface', sans-serif;
+	font: size: 1.2rem;
+	line-height: 1;
 }
 
 main {
-	padding-bottom: 2em;
-}
-
-main :first-child,
-main > article :first-child {
-	margin-top: 0;
-}
-
-pre {
-	font-size: 14px;
-	direction: ltr;
-	text-align: left;
-	white-space: pre;
-	word-spacing: normal;
-	word-break: normal;
-	-moz-tab-size: 2;
-	tab-size: 2;
-	-webkit-hyphens: none;
-	-moz-hyphens: none;
-	-ms-hyphens: none;
-	hyphens: none;
+	background-color: rgba(255,255,255,.65);
+	font-family: 'Source Serif Pro', serif;
+	margin: 0 auto;
+	max-width: 50em;
+	overflow-x: hidden;
+	overflow-y: auto;
 	padding: 1em;
-	margin: .5em 0;
+	width: 90%;
+	z-index: 2;
 }
 
-/* Header Logo (style as h2) */
+/* Header Logo (style as h2) this is fine. */
 header > em {
 	display: block;
-	font-size: 2em;
+	font-size: 1.5em;
+	line-height: 1;
 	margin: .67em 0;
-	font-weight: bold;
 	font-style: normal;
+	text-shadow: 2px 2px 0 gold;
 }
 
 /* Header Nav */
@@ -99,6 +145,7 @@ header nav ul :first-child {
 
 header nav li {
 	display: inline-block;
+	font-family: 'Abril Fatface', sans-serif;
 	margin: 0 .25em;
 }
 
@@ -132,18 +179,18 @@ main > section > article > * {
 a[rel="tag"],
 a[rel="tag"]:visited {
 	display: inline-block;
-  vertical-align: text-top;
-  text-transform: uppercase;
+  	vertical-align: text-top;
+  	text-transform: uppercase;
 	letter-spacing: .1em;
-  font-size: .625em;
-  padding: 0 .5em;
+  	font-size: .625em;
+  	padding: 0 .5em;
 	line-height: 2em;
 	height: 2em;
-  border: 1px solid var(--secondary);
+  	border: 1px solid var(--secondary);
 	background-color: var(--secondary);
 	color: var(--primary);
-  border-radius: .25em;
-  text-decoration: none;
+  	border-radius: .25em;
+  	text-decoration: none;
 	margin: 0 .5em .5em 0;
 }
 
@@ -159,22 +206,25 @@ a[rel="tag"]:last-child {
 
 /* Contact Form */
 form {
-  display: grid;
-	padding: 2em 0;
+  	display: grid;
 }
 
 form label {
-  display: none;
+  	display: none;
+}
+
+input, textarea {
+	background-color: rgba(255,255,255,.5);
 }
 
 input,
 textarea,
 button {
-  width: 100%;
-  padding: 1em;
-  margin-bottom: 1em;
+  	width: 100%;
+  	padding: 1em;
+  	margin-bottom: 1em;
 	font-size: 1rem;
-	font-family: "Avenir", "Avenir Next", sans-serif;
+	font-family: 'Abril Fatface', sans-serif;
 }
 
 input,
@@ -192,5 +242,18 @@ button {
 @media screen and (min-width:768px) {
 	:root {
 		font-size: 1.1rem;
+	}
+
+	header {
+		font-family: 'Ballet', cursive;
+	}
+
+	header > em, h1 {
+		font-size: 2em;
+	}
+
+	main {
+		overflow-y: auto;
+		width: 70%;
 	}
 }
