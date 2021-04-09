@@ -3,9 +3,6 @@ layout: layouts/home.njk
 title: "Golden Ray : The New Orleans Rock Experience"
 date: 2021-04-08T00:00:00.000Z
 permalink: /
-eleventyNavigation:
-  key: Home
-  order: 0
 ---
 # This is Golden Ray
 
