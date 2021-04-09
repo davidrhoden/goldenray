@@ -71,7 +71,7 @@ img {
 }
 
 header {
-	padding: 1em;
+	padding: 1em 1em 0;
 	font-family: 'Ballet', cursive;
 	text-align: center;
 	z-index: 2;
