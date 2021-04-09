@@ -52,10 +52,6 @@ small {
 	font-size: .7rem;
 }
 
-main img {
-	width: 100%;
-}
-
 p {
 	line-height: 1.5;
 }
@@ -121,6 +117,19 @@ main {
 	padding: 1em;
 	width: 90%;
 	z-index: 2;
+}
+
+main img {
+	width: 100%;
+}
+
+.shows main article {
+	text-align: center;
+}
+
+.shows main img {
+	height: 50vh;
+	width: auto;
 }
 
 /* Header Logo (style as h2) this is fine. */
