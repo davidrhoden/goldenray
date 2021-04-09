@@ -9,23 +9,23 @@ eleventyNavigation:
 ---
 # This is Golden Ray: a slideshow
 
-<div style="display: flex; flex-wrap: no-wrap; width: 600px">
+<div class="slide">
 
-<div style="margin-right: 1em;">
+<div>
 
-## Andrew Donaldson 
+## Andrew<br>Donaldson 
 ![Andrew Donaldson](/static/img/andrew-donaldson-01-tint.jpg "Andrew Donaldson")
 Vocals, guitar, and bass.
 </div>
 
-<div style="margin-right: 1em;">
+<div>
 
 ## Brian<br>Tierney
 ![Brian Tierney](/static/img/brian-tierney-01-tint.jpg "Brian Tierney")
 The drums.
 </div>
 
-<div style="margin-right: 1em;">
+<div>
 
 ## David<br>Rhoden 
 ![David Rhoden](/static/img/david-rhoden-01-tint.jpg "David Rhoden")

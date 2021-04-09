@@ -175,6 +175,10 @@ main > section > article > * {
 	margin-bottom: .5em;
 }
 
+.slide {
+	width: 100%;
+}
+
 /* Post Tags */
 a[rel="tag"],
 a[rel="tag"]:visited {
@@ -255,5 +259,15 @@ button {
 	main {
 		overflow-y: auto;
 		width: 70%;
+	}
+
+	.slide {
+		display: flex; 
+		flex-wrap: nowrap; 
+		width: 100%;
+	}
+
+	.slide div {
+		margin-right: 1em;
 	}
 }
