@@ -2,6 +2,7 @@
 	--primary: orangered;
 	--secondary: white;
 	--background: #dcbe2b;
+	--footerlinks: #0eff00;
 }
 
 *, *:before, *:after {
@@ -72,7 +73,7 @@ img {
 
 header {
 	padding: 1em 1em 0;
-	font-family: 'Abril Fatface', cursive;
+	font-family: 'Abril Fatface', sans-serif;
 	text-align: center;
 	z-index: 2;
 }
@@ -88,7 +89,7 @@ footer {
 
 footer a[href],
 footer a[href]:visited {
-	color: var(==secondary);
+	color: var(--footerlinks);
 	opacity: .75;
 }
 
