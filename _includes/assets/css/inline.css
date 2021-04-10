@@ -72,7 +72,7 @@ img {
 
 header {
 	padding: 1em 1em 0;
-	font-family: 'Pinyon Script', cursive;
+	font-family: 'Abril Fatface', cursive;
 	text-align: center;
 	z-index: 2;
 }
@@ -258,7 +258,7 @@ button {
 	}
 
 	header {
-		font-family: 'Ballet', cursive;
+		font-family: 'Abril Fatface', sans-serif;
 	}
 
 	header > em, h1 {
