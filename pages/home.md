@@ -10,22 +10,25 @@ permalink: /
 
 <div>
 
-## Andrew<br>Donaldson 
-![Andrew Donaldson](/static/img/andrew-donaldson-01-tint.jpg "Andrew Donaldson")
-Vocals, guitar, and bass.
-</div>
+![golden-ray-magazine-st-apr-9-2021-band-pic.jpg](/static/img/golden-ray-magazine-st-apr-9-2021-band-pic.jpg)
 
-<div>
+<div class="flex">
+
+<div style="flex-basis: 33%">
 
 ## Brian<br>Tierney
-![Brian Tierney](/static/img/brian-tierney-01-tint.jpg "Brian Tierney")
 The drums.
 </div>
 
-<div>
+<div style="flex-basis: 33%">
+
+## Andrew<br>Donaldson 
+Vocals, guitar, and bass.
+</div>
+
+<div style="flex-basis: 33%">
 
 ## David<br>Rhoden 
-![David Rhoden](/static/img/david-rhoden-01-tint.jpg "David Rhoden")
 Also vocals, guitar, and bass.
 </div>
 </div>
