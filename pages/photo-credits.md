@@ -13,3 +13,7 @@ U.S. Coast Guard photo by Petty Officer 3rd Class Ryan Dickinson, Public domain,
 <a title="Farid Mernissi, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Car_carrier_GOLDEN_RAY_en_quai.jpg"><img width="512" alt="Car carrier GOLDEN RAY en quai" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Car_carrier_GOLDEN_RAY_en_quai.jpg/512px-Car_carrier_GOLDEN_RAY_en_quai.jpg"></a>
 
 Farid Mernissi, CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0, via Wikimedia Commons
+
+![golden-ray-magazine-st-apr-9-2021-band-pic.jpg](/static/img/golden-ray-magazine-st-apr-9-2021-band-pic.jpg)
+
+Greg Delaune, all rights reserved, used by permission.
