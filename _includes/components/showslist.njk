@@ -1,5 +1,5 @@
 <section>
-	{% for show in showslist | reverse %}
+	{% for show in showslist %}
 		<article{% if show.url == url %} data-current="current item"{% endif %}>
 			{% if show.data.image %}
 				<a href="{{ show.url | url }}">

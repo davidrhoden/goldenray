@@ -12,6 +12,6 @@ tags:
 
 ---
 
-![Golden Ray on a porch on Magazine Street](golden-ray-magazine-st-apr-9-2021-band-pic.jpg)
+![Golden Ray on a porch on Magazine Street](/static/img/golden-ray-magazine-st-apr-9-2021-band-pic.jpg)
 
 We're going to play around 5 p.m., just before the parades start. There'll be a possibility of a jam session when we get done.
